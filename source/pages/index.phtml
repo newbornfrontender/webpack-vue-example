@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.main.css %>">
+  </head>
+  <body>
+    <header block="main-header">
+      <nav block="header-nav">
+        <ul block="list" mods="horizontal wide:darker">
+          <li elem="item">
+            <a href="#" elem="link" mods="visible">Link</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section block="main">
+      <div elem="inner">Hello Webpack</div>
+      <h1 block="titile" mods="main danger">Title</h1>
+    </section>
+
+    <footer>
+      <span>Thanks for visiting</span>
+      <span>See you next time!</span>
+    </footer>
+
+    <script src="bundle.js"></script>
+  </body>
+</html>
