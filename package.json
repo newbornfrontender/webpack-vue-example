@@ -1,0 +1,36 @@
+{
+  "name": "webpack-vue-example",
+  "description": "Простой Vue пример на Webpack",
+  "author": "Infant Frontender",
+  "license": "ISC",
+  "keywords": [
+    "webpack",
+    "vue",
+    "posthtml",
+    "postcss",
+    "babel"
+  ],
+  "version": "0.0.1",
+  "engines": {
+    "node": "9.11.1",
+    "npm": "6.0.0"
+  },
+  "main": "webpack.config.babel.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "homepage": "https://github.com/newbornfrontender/webpack-vue-example#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newbornfrontender/webpack-vue-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/newbornfrontender/webpack-vue-example/issues"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
