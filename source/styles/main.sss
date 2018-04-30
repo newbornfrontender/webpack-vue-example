@@ -1,0 +1,24 @@
+/*
+ * Very
+ * long
+ * comment
+ */
+
+// Block
+.block
+  grid-template-columns: repeat(3, 1fr)
+  font-size: 30px
+  color: red
+
+  // Element
+  &__elem
+    display: flex
+
+    // Modifier
+    &--mod
+      color: yellow
+
+  // Modifier
+  &--mod
+    transform: rotate(270deg)
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1)
