@@ -1,0 +1,8 @@
+[production staging]
+defaults
+
+not ie <= 8
+not safari <= 8
+
+[development]
+defaults
