@@ -1,8 +1,9 @@
-[production staging]
-defaults
+# Defaults
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
 
+# Custom
 not ie <= 8
 not safari <= 8
-
-[development]
-defaults
